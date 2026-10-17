@@ -46,7 +46,7 @@ Which customer segments and hotels drive bookings, and where is the business los
 
 # Tools Used
 
-- Python (Pandas): [describe your cleaning steps, e.g. fixing nulls, removing invalid rows]
+- Python (Pandas): [Python (Pandas): cleaned the raw booking data by handling missing values (for example, filling missing agent entries with "No Agent") and removing invalid bookings with zero guests, then exported hotel_bookings_cleaned.csv for analysis]
 
 - MySQL: 15 analytical queries using CTEs, window functions (RANK, DENSE\_RANK, LAG) and correlated subqueries
 
